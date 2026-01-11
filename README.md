@@ -34,18 +34,18 @@ The application is built using **Python**, **OpenCV**, and **Streamlit**, provid
 ## 🏗 Project Architecture
 
 
-AI_BLACK_AND_WHITE_IMAGE_COLORIZATION_WITH_OPENCV/
-│
-├── app.py                     # Streamlit web application
-├── models/
-│   ├── colorization_deploy_v2.prototxt
-│   ├── colorization_release_v2.caffemodel
-│   └── pts_in_hull.npy
-│
-├── Input_images/              # Sample test images
-├── Result_images/             # Generated colorized outputs
-├── requirements.txt
-└── README.md
+AI_BLACK_AND_WHITE_IMAGE_COLORIZATION_WITH_OPENCV/ <br>
+│<br>
+├─ app.py                     # Streamlit web application<br>
+├─ models/<br>
+│   ├── colorization_deploy_v2.prototxt<br>
+│   ├── colorization_release_v2.caffemodel<br>
+│   └── pts_in_hull.npy<br>
+│<br>
+├── Input_images/              # Sample test images<br>
+├── Result_images/             # Generated colorized outputs<br>
+├── requirements.txt<br>
+└── README.md<br>
 
 
 
@@ -105,8 +105,5 @@ India 🇮🇳
 
 ---
 
-# 📝 **Project Description (For Resume / Portfolio)**
-
-**AI Black & White Image Colorization** is a deep learning–based web application that converts grayscale images into realistic colored images using OpenCV’s DNN framework and a pretrained Caffe neural network. The system extracts lightness information from black & white images and predicts the chrominance channels using a convolutional neural network trained on millions of images. The application is deployed using Streamlit, providing an intuitive web interface for real-time image upload and visualization. This project demonstrates practical applications of computer vision, neural networks, and image processing in restoring and enhancing visual data.
 
 
